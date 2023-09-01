@@ -89,7 +89,6 @@ public class QuizManagar : MonoBehaviour
                 Debug.Log("Jawaban Benar!");
                 animatorPlayer.SetBool("PlayerAttack", true);
                 // textNilai.text = "Nilai: " + CalculateScore();
-
             }
 
             else
@@ -120,7 +119,6 @@ public class QuizManagar : MonoBehaviour
                 score++;
             }
         }
-
         return score;
     }
 
@@ -131,7 +129,7 @@ public class QuizManagar : MonoBehaviour
 
     public void BtnNo(int sceneIndex)
     {
-        Destroy(dataParsistenceManager);
+        // Destroy(dataParsistenceManager);
         StartCoroutine(LoadAsynchronously(sceneIndex));
     }
 

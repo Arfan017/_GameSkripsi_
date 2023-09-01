@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CreditsManager : MonoBehaviour
 {
@@ -9,18 +10,28 @@ public class CreditsManager : MonoBehaviour
     public GameObject ParentCredit;
     private RectTransform contentTransform;
     private Vector3 OriginalPosition;
+    private string SceneName;
+    private QuizManagar quizManagar;
 
     private void Start()
     {
         OriginalPosition = PanelCredit.transform.position;
-
         contentTransform = PanelCredit.GetComponent<RectTransform>();
+        SceneName = SceneManager.GetActiveScene().name;
 
-        // Menjalankan coroutine untuk menggerakkan teks secara otomatis
-        StartCoroutine(ScrollCredits());
+        if (SceneName == "MainMenu")
+        {
+            // Menjalankan coroutine untuk menggerakkan teks secara otomatis
+            StartCoroutine(ScrollCredits());
 
-        // Memulai countdown untuk kembali ke scene utama setelah waktu yang ditentukan
-        Invoke("DisableCreditScene", endTime);
+            // Memulai countdown untuk kembali ke scene utama setelah waktu yang ditentukan
+            Invoke("DisableCreditScene", endTime);
+        } else
+        {
+            quizManagar = FindObjectOfType<QuizManagar>();
+            StartCoroutine(ScrollCredits());
+            Invoke("goToMainMenu", endTime);
+        }
     }
 
     private IEnumerator ScrollCredits()
@@ -32,7 +43,6 @@ public class CreditsManager : MonoBehaviour
             contentTransform.anchoredPosition += Vector2.up * scrollSpeed * Time.deltaTime;
             yield return null;
         }
-
         DisableCreditScene();
     }
 
@@ -40,5 +50,9 @@ public class CreditsManager : MonoBehaviour
     {
         ParentCredit.SetActive(false);
         PanelCredit.transform.position = OriginalPosition;
+    }
+
+    private void goToMainMenu(){
+        quizManagar.BtnNo(0);
     }
 }

@@ -9,7 +9,7 @@ public class BossFight : MonoBehaviour
     public Animator animSwordBossAtk;
     public Animator animatorBoss;
     public Image fillHealth;
-    private float healthBoss = 5;
+    private float healthBoss = 10;
     public float demageBoss = 3;
     public GameObject PanelWin;
     public TextMeshProUGUI textNilai;
@@ -21,7 +21,7 @@ public class BossFight : MonoBehaviour
         set
         {
             healthBoss = value;
-            fillHealth.fillAmount = healthBoss / 5f;
+            fillHealth.fillAmount = healthBoss / 10f;
 
             if (healthBoss <= 0f)
             {
@@ -58,6 +58,7 @@ public class BossFight : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D coll)
     {
+        Debug.Log("trigger dari boss");
         if (coll.gameObject.tag == "SwordPlayer")
         {
             animatorBoss.SetBool("IsDemage", true);

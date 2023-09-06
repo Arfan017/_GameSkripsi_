@@ -21,7 +21,7 @@ public class DamageableCharacter : MonoBehaviour, IDemageable, IDataPersistence
     public bool canTrunInvicible = false;
     public float invicibilityTime = 0.25f;
     public float _health = 5;
-    public bool _targetable = false;
+    public bool _targetable = true;
     public bool _invicible = false;
     Rigidbody2D rb;
     Collider2D pysicsCollider;

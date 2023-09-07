@@ -18,8 +18,8 @@ public class Slime : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log("Targetable" + damageableCharacter.Targetable);
-        Debug.Log("Detection" + (detectionZone.detectedObjs.Count > 0));
+        // Debug.Log("Targetable" + damageableCharacter.Targetable);
+        // Debug.Log("Detection" + (detectionZone.detectedObjs.Count > 0));
 
         if (damageableCharacter.Targetable && detectionZone.detectedObjs.Count > 0)
         {

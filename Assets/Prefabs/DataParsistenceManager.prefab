@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddcd2d610b8d0214dbf93ebebe411c56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initializedataInNull: 0
-  fileName: save
+  initializeDataIfNull: 0
+  fileName: save.txt

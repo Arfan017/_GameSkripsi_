@@ -10,10 +10,10 @@ public class SwordHitBox : MonoBehaviour
     public Vector3 faceRight = new Vector3(0.11f, -0.017f, 0);
     public Vector3 faceLeft = new Vector3(-0.11f, -0.017f, 0);
     void Start(){
-        if (swordCollider == null)
-        {
-            Debug.LogWarning("sword collider not set");
-        }
+        // if (swordCollider == null)
+        // {
+        //     Debug.LogWarning("sword collider not set");
+        // }
     }
 
     void OnTriggerEnter2D(Collider2D col){
@@ -30,10 +30,10 @@ public class SwordHitBox : MonoBehaviour
             // col.collider.BroadcastMessage("OnHit", swordDemage, knockback);
             demageableObject.OnHit(swordDemage, knockback);
         }
-        else
-        {
-            Debug.LogWarning("Collider does not implement IDemageable");
-        }
+        // else
+        // {
+        //     Debug.LogWarning("Collider does not implement IDemageable");
+        // }
     }
 
     void IsFacingRight(bool isFacingRight){

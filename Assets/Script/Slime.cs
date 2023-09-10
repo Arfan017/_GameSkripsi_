@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Slime : MonoBehaviour
+// , IDataPersistence
 {
+    // bool isAlive = false;
     public float damage = 1;
     public float knockbackForce = 100f;
     public float moveSpeed = 500f;
@@ -18,9 +20,6 @@ public class Slime : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Debug.Log("Targetable" + damageableCharacter.Targetable);
-        // Debug.Log("Detection" + (detectionZone.detectedObjs.Count > 0));
-
         if (damageableCharacter.Targetable && detectionZone.detectedObjs.Count > 0)
         {
             Debug.Log("Player deteksi");
@@ -37,13 +36,29 @@ public class Slime : MonoBehaviour
 
         if (damageable != null)
         {
-            // Vector3 parentPosition = transform.parent.position;
-
             Vector2 direction = (collider.transform.position - transform.position).normalized;
 
             Vector2 knockback = direction * knockbackForce;
-            // other.SendMessage("OnHit", swordDemage, knockback);
+
             damageable.OnHit(damage, knockback);
         }
     }
+
+    // public void LoadData(GameData data)
+    // {
+    //     data.EnemyDefeat.TryGetValue(id, out isAlive);
+    //     if (isAlive)
+    //     {
+    //         gameObject.SetActive(false);
+    //     }
+    // }
+
+    // public void SaveData(GameData data)
+    // {
+    //     if (data.EnemyDefeat.ContainsKey(id))
+    //     {
+    //         data.EnemyDefeat.Remove(id);
+    //     }
+    //     data.EnemyDefeat.Add(id, collected);
+    // }
 }

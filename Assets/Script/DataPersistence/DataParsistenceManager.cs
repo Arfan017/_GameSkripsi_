@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-using System;
 using UnityEngine.SceneManagement;
 
 public class DataParsistenceManager : MonoBehaviour
 {
     [Header("Debugging")]
-    [SerializeField] private bool initializedataInNull = false;
+    [SerializeField] private bool initializeDataIfNull = false;
+    
     [Header("File Storage Config")]
     [SerializeField] private string fileName;
-
     private GameData gameData;
     private List<IDataPersistence> dataPersistencesObjects;
     private FileDataHandler dataHandler;
@@ -21,7 +20,7 @@ public class DataParsistenceManager : MonoBehaviour
     {
         if (instance != null)
         {
-            Debug.Log("Ditemukan lebih dari 1 Data Parsistence Manager di scene ini");
+            // Debug.Log("Ditemukan lebih dari 1 Data Parsistence Manager di scene ini");
             Destroy(this.gameObject);
         }
         instance = this;
@@ -60,12 +59,12 @@ public class DataParsistenceManager : MonoBehaviour
     {
         this.gameData = new GameData();
     }
-    
+
     public void Loadgame()
     {
         this.gameData = dataHandler.Load();
 
-        if (this.gameData == null && initializedataInNull)
+        if (this.gameData == null && initializeDataIfNull)
         {
             NewGame();
         }

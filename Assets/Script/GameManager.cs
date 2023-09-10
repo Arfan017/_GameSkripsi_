@@ -122,20 +122,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // public void LoadDate(GameData data)
-    // {
-    //     DataPosition = data.playerPosition;
-    //     DataHealth = data.dataHealth;
+    public void LoadData(GameData data)
+    {
+        DataPosition = data.playerPosition;
+        DataHealth = data.dataHealth;
+        // player.LoadPositionPlayer();
+        // helathPlayer.LoadHealthPlayer();
+    }
 
-    //     // player.LoadPositionPlayer();
-    //     // helathPlayer.LoadHealthPlayer();
-    // }
-
-    // public void SaveData(ref GameData data)
-    // {
-    //     data.dataHealth = DataHealth;
-    //     data.playerPosition = DataPosition;
-    // }
+    public void SaveData(GameData data)
+    {
+        data.dataHealth = DataHealth;
+        data.playerPosition = DataPosition;
+    }
 
     // private void PrintDictionaryEnemyCountNeeded()
     // {

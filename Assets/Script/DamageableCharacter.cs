@@ -117,16 +117,6 @@ public class DamageableCharacter : MonoBehaviour, IDemageable, IDataPersistence
 
     public void Start()
     {
-        
-        if (animator == null)
-        {
-            Debug.LogError("Animator component not found!");
-        }
-        else
-        {
-            Debug.Log("Animator component found and assigned.");
-        }
-
         animator.SetBool("isAlive", isAlive);
         rb = GetComponent<Rigidbody2D>();
         pysicsCollider = GetComponent<Collider2D>();
@@ -204,8 +194,6 @@ public class DamageableCharacter : MonoBehaviour, IDemageable, IDataPersistence
 
     public void LoadDate(GameData data)
     {
-        Health = data.dataHealth;
-
         data.EnemyDefeat.TryGetValue(id, out isDie);
 
         if (isDie)

@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.177, y: 0.30649924}
   m_AnchorMax: {x: 1, y: 0.30950078}
-  m_AnchoredPosition: {x: 0.1270752, y: 0.15997314}
+  m_AnchoredPosition: {x: 0.1270752, y: 0.16008759}
   m_SizeDelta: {x: -0.25421, y: 0.000415802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20612976
@@ -2384,9 +2384,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 765241742}
-        m_TargetAssemblyTypeName: DataParsistenceManager, Assembly-CSharp
-        m_MethodName: Loadgame
+      - m_Target: {fileID: 1437690648}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OnContinueGameClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2933,17 +2933,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711664770}
   m_CullTransparentMesh: 1
---- !u!114 &765241742 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6109018054506434087, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
-  m_PrefabInstance: {fileID: 1397829531}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddcd2d610b8d0214dbf93ebebe411c56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &774410045
 GameObject:
   m_ObjectHideFlags: 0
@@ -5402,7 +5391,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1324820236}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1437690648}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: button_exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1324820236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5834,10 +5835,6 @@ PrefabInstance:
     - target: {fileID: 629142539655648406, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
       propertyPath: m_Name
       value: DataParsistenceManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6109018054506434087, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
-      propertyPath: initializedataInNull
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7799833082636483494, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
       propertyPath: m_RootOrder
@@ -6338,6 +6335,7 @@ GameObject:
   - component: {fileID: 1437690645}
   - component: {fileID: 1437690647}
   - component: {fileID: 1437690646}
+  - component: {fileID: 1437690648}
   m_Layer: 5
   m_Name: PanelMainMenu
   m_TagString: Untagged
@@ -6407,6 +6405,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437690644}
   m_CullTransparentMesh: 1
+--- !u!114 &1437690648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437690644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4a1637e686bcb4693603d9d71ccfb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newGameButton: {fileID: 1759133323}
+  continueGameButton: {fileID: 568752844}
 --- !u!1 &1438529407
 GameObject:
   m_ObjectHideFlags: 0
@@ -7587,9 +7599,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 765241742}
-        m_TargetAssemblyTypeName: DataParsistenceManager, Assembly-CSharp
-        m_MethodName: NewGame
+      - m_Target: {fileID: 1437690648}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OnNewGameClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8574,7 +8586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.012438017, y: 0.27050078}
   m_AnchorMax: {x: 0.17782645, y: 0.34550077}
-  m_AnchoredPosition: {x: 0, y: 0.16409302}
+  m_AnchoredPosition: {x: 0, y: 0.16403198}
   m_SizeDelta: {x: 0.000015258789, y: -0.005012512}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084071722

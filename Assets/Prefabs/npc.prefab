@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-    name: 
+    name: Beliau
     sentences:
     - Hai
     - hello

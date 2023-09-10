@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour, IDataPersistence
+public class PlayerController : MonoBehaviour
+// , IDataPersistence
 {
     bool IsMoving
     {
@@ -124,16 +125,13 @@ public class PlayerController : MonoBehaviour, IDataPersistence
         canMove = true;
     }
 
-    public void LoadDate(GameData data)
-    {
-        transform.position = data.playerPosition;
-    }
+    // public void LoadDate(GameData data)
+    // {
+    //     this.transform.position = data.playerPosition;
+    // }
 
-    public void SaveData(ref GameData data)
-    {
-        if (this != null)
-        {
-            data.playerPosition = transform.position;
-        }
-    }
+    // public void SaveData(GameData data)
+    // {
+    //     data.playerPosition = this.transform.position;
+    // }
 }

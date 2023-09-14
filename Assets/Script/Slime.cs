@@ -22,7 +22,7 @@ public class Slime : MonoBehaviour
     {
         if (damageableCharacter.Targetable && detectionZone.detectedObjs.Count > 0)
         {
-            Debug.Log("Player deteksi");
+            // Debug.Log("Player deteksi");
             Vector2 direction = (detectionZone.detectedObjs[0].transform.position - transform.position).normalized;
 
             rb.AddForce(direction * moveSpeed * Time.deltaTime);

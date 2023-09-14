@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject loadingPanel;
     public Slider SliderLoading;
     private bool isPaused = false;
+    private GameData gameData;
     private Dictionary<string, int> enemyCountNeeded = new Dictionary<string, int>();
     public Dictionary<string, int> EnemyCountNeeded
     {
@@ -84,18 +85,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // saveLoadManager = FindObjectOfType<SaveLoadManager>();
         player = FindObjectOfType<PlayerController>();
         helathPlayer = FindObjectOfType<DamageableCharacter>();
         dataParsistenceManager = FindAnyObjectByType<DataParsistenceManager>();
-
-        EnemyCountNeeded.Add("EnemyA", 2);
-        EnemyCountNeeded.Add("Enemy", 3);
-
-        foreach (string tag in EnemyCountNeeded.Keys)
-        {
-            EnemyCount.Add(tag, 0);
-        }
     }
 
     void Update()
@@ -237,7 +229,7 @@ public class GameManager : MonoBehaviour
 
     public void load()
     {
-        dataParsistenceManager.Loadgame();
+        dataParsistenceManager.LoadGame();
     }
 
     public void ResumeGame()
@@ -265,17 +257,11 @@ public class GameManager : MonoBehaviour
         MenuPanel.SetActive(true);
     }
 
-    // public void EnemyDefeated(string enemyTag)
-    // {
-    //     if (EnemyCount.ContainsKey(enemyTag))
-    //     {
-    //         EnemyCount[enemyTag]++;
-    //     }
-    // }
-
     public void BtnYes()
     {
+        DataParsistenceManager.instance.NewGame();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        DataParsistenceManager.instance.LoadGame();
     }
 
     public void BtnNo(int sceneIndex)

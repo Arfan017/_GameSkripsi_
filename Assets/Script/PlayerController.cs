@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
-// , IDataPersistence
+public class PlayerController : MonoBehaviour, IDataPersistence
 {
     bool IsMoving
     {
@@ -19,17 +18,18 @@ public class PlayerController : MonoBehaviour
     public float maxSpeed = 8f;
     public float idleFriction = 0.9f;
     public GameObject swordHitbox;
+    public DamageableCharacter damageableCharacter;
     Rigidbody2D rb;
     Animator animator;
     SpriteRenderer spriteRenderer;
     Vector2 moveInput = Vector2.zero;
+    Vector3 currentPosition;
     Collider2D swordCollider;
     bool isMoving = false;
     bool canMove = true;
     bool CollisionNPC;
     private GameManager gameManager;
-    public DamageableCharacter damageableCharacter;
-    Vector3 currentPosition;
+    // DamageableCharacter damageableCharacter;
 
     void Start()
     {
@@ -39,11 +39,7 @@ public class PlayerController : MonoBehaviour
         swordCollider = swordHitbox.GetComponent<Collider2D>();
         gameManager = FindObjectOfType<GameManager>();
         damageableCharacter = GetComponent<DamageableCharacter>();
-    }
 
-    void Update()
-    {
-        
     }
 
     // public void SaveDataPosition()
@@ -125,13 +121,19 @@ public class PlayerController : MonoBehaviour
         canMove = true;
     }
 
-    // public void LoadDate(GameData data)
-    // {
-    //     this.transform.position = data.playerPosition;
-    // }
+    public void LoadData(GameData data)
+    {
+        if (this != null)
+        {
+            this.transform.position = data.playerPosition;
+        }
+    }
 
-    // public void SaveData(GameData data)
-    // {
-    //     data.playerPosition = this.transform.position;
-    // }
+    public void SaveData(GameData data)
+    {
+        if (this != null)
+        {
+            data.playerPosition = this.transform.position;
+        }
+    }
 }

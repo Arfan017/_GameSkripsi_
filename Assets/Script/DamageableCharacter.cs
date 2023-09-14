@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -89,11 +90,15 @@ public class DamageableCharacter : MonoBehaviour, IDemageable, IDataPersistence
         {
             _targetable = value;
 
-            if (disableSimulated)
+            if (disableSimulated && (id != "Player"))
             {
                 rb.simulated = false;
             }
-            pysicsCollider.enabled = value;
+            
+            if (id != "Player")
+            {
+                pysicsCollider.enabled = value;
+            }
         }
     }
 
@@ -117,15 +122,16 @@ public class DamageableCharacter : MonoBehaviour, IDemageable, IDataPersistence
 
     public void Start()
     {
+        panelLose.SetActive(false);
         animator.SetBool("isAlive", isAlive);
         rb = GetComponent<Rigidbody2D>();
-        pysicsCollider = GetComponent<Collider2D>();
         gameManager = FindObjectOfType<GameManager>();
         // saveLoadManager = FindObjectOfType<SaveLoadManager>();
     }
 
     void Awake()
     {
+        pysicsCollider = GetComponent<Collider2D>();
         HealthBar = GameObject.Find(nameHealthBar);
         imageHealth = HealthBar.GetComponent<Image>();
         animator = GetComponent<Animator>();
@@ -192,19 +198,30 @@ public class DamageableCharacter : MonoBehaviour, IDemageable, IDataPersistence
         }
     }
 
-    public void LoadDate(GameData data)
+    public void LoadData(GameData data)
     {
         data.EnemyDefeat.TryGetValue(id, out isDie);
 
-        if (isDie)
+        if (isDie && id != "Player")
         {
             gameObject.SetActive(false);
         }
+        else
+        {
+            // gameObject.SetActive(true);
+            if (id == "Player")
+            {
+                Health = data.dataHealth;
+            }
+        }
     }
 
-    public void SaveData(ref GameData data)
+    public void SaveData(GameData data)
     {
-        data.dataHealth = Health;
+        if (id == "Player")
+        {
+            data.dataHealth = Health;
+        }
 
         if (data.EnemyDefeat.ContainsKey(id))
         {

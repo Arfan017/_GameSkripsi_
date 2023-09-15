@@ -614,76 +614,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions:
-  - questionText: tekan a
+  - questionText: Siapakah pendiri Muhammadiyah?
     options:
-    - a
-    - b
-    - c
-    - d
+    - KH Ahmad Dahlan
+    - KH Hasyim Asy'ari
+    - KH Abdul Wahab Hasbullah
+    - KH Abdurrahman Wahid
     correctOptionIndex: 0
-  - questionText: tekan a
+  - questionText: Muhammadiyah didirikan di kota mana?
     options:
-    - a
-    - b
-    - c
-    - d
+    - Yogyakarta
+    - Solo
+    - Jakarta
+    - Surabaya
     correctOptionIndex: 0
-  - questionText: tekan a
+  - questionText: Apa tujuan utama pendirian Muhammadiyah?
     options:
-    - a
-    - b
-    - c
-    - d
-    correctOptionIndex: 0
-  - questionText: tekan a
+    - Membantu kaum pribumi dalam berdagang
+    - Mengajarkan ajaran Islam yang murni
+    - Melawan penjajahan Belanda
+    - Membangun lembaga pendidikan Islam
+    correctOptionIndex: 1
+  - questionText: Apa yang menjadi peran Muhammadiyah dalam bidang kesehatan?
     options:
-    - a
-    - b
-    - c
-    - d
+    - Membangun rumah sakit
+    - Mengadakan kampanye kesehatan
+    - Melakukan penelitian kesehatan
+    - Membantu pemerintah dalam program kesehatan
     correctOptionIndex: 0
-  - questionText: tekan a
+  - questionText: Apa yang menjadi peran Muhammadiyah dalam bidang ekonomi?
     options:
-    - a
-    - b
-    - c
-    - d
-    correctOptionIndex: 0
-  - questionText: tekan a
-    options:
-    - a
-    - b
-    - c
-    - d
-    correctOptionIndex: 0
-  - questionText: tekan a
-    options:
-    - a
-    - b
-    - c
-    - d
-    correctOptionIndex: 0
-  - questionText: tekan a
-    options:
-    - a
-    - b
-    - c
-    - d
-    correctOptionIndex: 0
-  - questionText: tekan a
-    options:
-    - a
-    - b
-    - c
-    - d
-    correctOptionIndex: 0
-  - questionText: tekan a
-    options:
-    - a
-    - b
-    - c
-    - d
-    correctOptionIndex: 0
+    - Membangun pabrik dan perusahaan
+    - Memberikan bantuan modal kepada pengusaha
+    - Mengadakan pelatihan kewirausahaan
+    - Membentuk koperasi
+    correctOptionIndex: 3
   questionText: {fileID: 1933341754}
   optionButtons:
   - {fileID: 1949317965}

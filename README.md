@@ -1,6 +1,7 @@
 # _GameSkripsi_
 
 build: Build/GameSkripsi.exe
+
 Setup:
 - downlaod file save dan game
 - jalankan gamenya(jangan klik new game/load)

@@ -9,6 +9,8 @@ public class MainMenu : MonoBehaviour
     [Header("Menu Buttons")]
     [SerializeField] private Button newGameButton;
     [SerializeField] private Button continueGameButton;
+    public GameObject loadingPanel;
+    public Slider SliderLoading;
 
     private void Start()
     {
@@ -25,8 +27,9 @@ public class MainMenu : MonoBehaviour
         DataParsistenceManager.instance.NewGame();
         // load the gameplay scene - which will in turn save the game because of
         // OnSceneUnloaded() in the DataPersistenceManager
-        SceneManager.LoadSceneAsync("GamePlay");
-    }
+        // SceneManager.LoadSceneAsync("GamePlay");
+        // SceneManager.LoadSceneAsync("Intro");
+        StartCoroutine(LoadAsynchronously(3));    }
 
     public void OnContinueGameClicked()
     {
@@ -47,5 +50,19 @@ public class MainMenu : MonoBehaviour
 
         Application.Quit();
 
+    }
+
+    IEnumerator LoadAsynchronously(int sceneIndex)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+
+        loadingPanel.SetActive(true);
+
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+            SliderLoading.value = progress;
+            yield return null;
+        }
     }
 }

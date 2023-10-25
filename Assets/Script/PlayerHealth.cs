@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour, IDemageable
 {
-    public float Health { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
-    public bool Targetable { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+    
     float IDemageable.Health { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
     bool IDemageable.Targetable { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
     bool IDemageable.Invicible { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }

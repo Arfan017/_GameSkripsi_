@@ -7,6 +7,7 @@ TagManager:
   - SwordPlayer
   - SwordBoss
   - MoveScene
+  - lockarea
   layers:
   - Default
   - TransparentFX

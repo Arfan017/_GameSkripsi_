@@ -23,13 +23,16 @@ public class PlayerController : MonoBehaviour, IDataPersistence
     Animator animator;
     SpriteRenderer spriteRenderer;
     Vector2 moveInput = Vector2.zero;
-    Vector3 currentPosition;
     Collider2D swordCollider;
     bool isMoving = false;
     bool canMove = true;
-    bool CollisionNPC;
     private GameManager gameManager;
-    // DamageableCharacter damageableCharacter;
+    private int coinsCollected = 0;
+    public int CoinsCollected
+    {
+        get => coinsCollected;
+        set => coinsCollected = value;
+    }
 
     void Start()
     {
@@ -39,18 +42,8 @@ public class PlayerController : MonoBehaviour, IDataPersistence
         swordCollider = swordHitbox.GetComponent<Collider2D>();
         gameManager = FindObjectOfType<GameManager>();
         damageableCharacter = GetComponent<DamageableCharacter>();
-
+        GameEventsManager.instance.onCoinCollected += OnCoinCollected;
     }
-
-    // public void SaveDataPosition()
-    // {
-    //     gameManager.DataPosition = transform.position;
-    // }
-
-    // public void LoadDataPosition()
-    // {
-    //     transform.position = gameManager.DataPosition;
-    // }
 
     void FixedUpdate()
     {
@@ -134,6 +127,19 @@ public class PlayerController : MonoBehaviour, IDataPersistence
         if (this != null)
         {
             data.playerPosition = this.transform.position;
+        }
+    }
+
+    private void OnCoinCollected()
+    {
+        CoinsCollected++;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("lockarea"))
+        {
+            Debug.Log(CoinsCollected);
         }
     }
 }

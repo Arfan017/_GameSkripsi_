@@ -38,7 +38,6 @@ public class NPCs : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("OnCollisionEnter2D");
         if (collision.gameObject.CompareTag("Player"))
         {
             dialogueManager.StartDialog(dialog);

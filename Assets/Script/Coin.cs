@@ -5,7 +5,6 @@ using UnityEngine;
 public class Coin : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private string id;
-
     [ContextMenu("Generate guid for id")]
     private void GenerateGuid()
     {
@@ -28,7 +27,10 @@ public class Coin : MonoBehaviour, IDataPersistence
         data.coinsCollected.TryGetValue(id, out collected);
         if (collected)
         {
-            visual.gameObject.SetActive(false);
+            gameObject.SetActive(false);
+        }
+        else if(!collected){
+            gameObject.SetActive(true);
         }
     }
 
@@ -53,7 +55,7 @@ public class Coin : MonoBehaviour, IDataPersistence
     private void CollectCoin()
     {
         collected = true;
-        visual.gameObject.SetActive(false);
+        gameObject.SetActive(false);
         GameEventsManager.instance.CoinCollected();
     }
 }

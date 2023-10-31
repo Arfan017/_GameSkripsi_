@@ -137,16 +137,6 @@ public class DamageableCharacter : MonoBehaviour, IDemageable, IDataPersistence
         animator = GetComponent<Animator>();
     }
 
-    // public void SaveDataHealth()
-    // {
-    //     gameManager.DataHealth = Health;
-    // }
-
-    // public void LoadDataHealth()
-    // {
-    //     Health = gameManager.DataHealth;
-    // }
-
     public void OnHit(float demage, Vector2 knockback)
     {
         if (!Invicible)

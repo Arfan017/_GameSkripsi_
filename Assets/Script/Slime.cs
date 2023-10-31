@@ -43,22 +43,4 @@ public class Slime : MonoBehaviour
             damageable.OnHit(damage, knockback);
         }
     }
-
-    // public void LoadData(GameData data)
-    // {
-    //     data.EnemyDefeat.TryGetValue(id, out isAlive);
-    //     if (isAlive)
-    //     {
-    //         gameObject.SetActive(false);
-    //     }
-    // }
-
-    // public void SaveData(GameData data)
-    // {
-    //     if (data.EnemyDefeat.ContainsKey(id))
-    //     {
-    //         data.EnemyDefeat.Remove(id);
-    //     }
-    //     data.EnemyDefeat.Add(id, collected);
-    // }
 }

@@ -128,7 +128,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 917653358}
     m_Modifications:
     - target: {fileID: 1620155854831628704, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_Name
@@ -136,15 +136,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.19947
+      value: 19.613
       objectReference: {fileID: 0}
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.216959
+      value: -5.669
       objectReference: {fileID: 0}
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -156,15 +156,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -177,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860235961649685846, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
+      propertyPath: id
+      value: 95957527-9514-4458-bf02-26b558ece198
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
@@ -315,6 +319,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12182608}
   m_CullTransparentMesh: 1
+--- !u!1001 &15125647
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1453020000}
+    m_Modifications:
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.5561
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.4472
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147794, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Name
+      value: lvl5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: id
+      value: lvl5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: message
+      value: 
+      objectReference: {fileID: 986807596}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: requiredCoin
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: PanelUnlockArea
+      value: 
+      objectReference: {fileID: 435074075}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[0]
+      value: Apakah kamu ingin membuka area 1 ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[1]
+      value: poin kamu belum cukup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+--- !u!4 &15125648 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+  m_PrefabInstance: {fileID: 15125647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &63362899
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +465,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &74902687
 GameObject:
@@ -776,8 +870,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: perlu diketahui, Muhammadiyah memberikan bantuan kepada korban bencana
-        alam sebagai bentuk kontribusinya dalam bidang kemanusiaan.
+      value: perlu diketahui, Masuknya perserikatan Muhammadiyah ke Purwokerto tidak
+        terlepas dari peran K.H. Ahmad Dahlan selaku pendiri Muhammadiyah Pusat.
+        Pada tahun 1920 M, K.H. Ahmad Dahlan berkunjung ke Purwokerto untuk memberikan
+        pengajian akbar di Masjid Agung Baitussalam.
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -829,6 +925,88 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
   m_PrefabInstance: {fileID: 109243406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &118969859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 917653358}
+    m_Modifications:
+    - target: {fileID: 645619527236665295, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_Name
+      value: ObjIlmu (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.719
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75229007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: text
+      value: pada area ini kamu akan belajar sejarah muhammadiyah di Garut
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 21300000, guid: 05b6d9225025c8c42aa0c8ad4d7c43e6, type: 3}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 743943272}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogImage
+      value: 
+      objectReference: {fileID: 718911740}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: PanelDialogIlmu
+      value: 
+      objectReference: {fileID: 923484367}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af78a4c81472edf438a594643aab7721, type: 3}
+--- !u!4 &118969860 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+  m_PrefabInstance: {fileID: 118969859}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &119872741
 PrefabInstance:
@@ -945,9 +1123,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, Muhammadiyah membedakan dirinya dengan organisasi Islam
-        lainnya pada saat itu dengan menolak menerima sumbangan dari pemerintah kolonial
-        Belanda.
+      value: 'Tahukah kamu, cabang Muhammadiyah mendirikan HIS Muhammadiyah, menempati
+        sebagian tanah di sebelah rumah Ranuwiharjo. Siswanya adalah anak-anak mereka
+        sendiri. Iskandar Ranuwiharjo dan Dahlan Ranuwiharjo adalah dua diantara
+        siswa pertama HIS Muhammadiyah Pekalongan. '
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -1201,8 +1380,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: perlu diketahui, Muhammadiyah aktif dalam gerakan nasionalis dan berperan
-        dalam perjuangan kemerdekaan Indonesia.
+      value: perlu diketahui, Muhammadiyah Surakarta didirikan langsung oleh Kiai
+        Dahlan, founder persyarikatan Muhammadiyah. Sehingga perjalanan Muhammadiyah
+        Surakarta memiliki banyak warna yang tidak kalah dengan sejarah Muhammadiyah
+        Yogyakarta
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -1725,9 +1906,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: perlu diketahui, Visi Muhammadiyah ke depan adalah membangun masyarakat
-        yang sejahtera dan berkeadilan sebagai upaya untuk meningkatkan kualitas
-        hidup umat manusia secara keseluruhan.
+      value: "perlu diketahui, pada tahun 1922 M berdasarkan Surat Ketetapan no.
+        11/BM tertanggal 15 November 1922, Purwokerto resmi menjadi Cabang Persyarikatan
+        Muhammadiyah diketuai oleh K. Ma\u2019ruf"
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -1890,8 +2071,12 @@ PrefabInstance:
       value: 1516173943
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[0]
-      value: heh3.. :v
+      value: Terima kasih banyak
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -2279,9 +2464,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, Muhammadiyah memiliki pendekatan dakwah yang moderat dan
-        inklusif, dengan menghargai perbedaan dan berusaha membangun kerjasama antarumat
-        beragama.
+      value: Tahukah kamu, Dari kota Garut, Muhammadiyah merangkak menyentuh beberapa
+        kota yang berdekatan. Salah satu kota yang mendapat pengaruh besar penyebaran
+        Muhammadiyah dari Garut adalah Tasikmalaya.
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -2449,9 +2634,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: perlu diketahui, Setelah kemerdekaan Indonesia, Muhammadiyah fokus pada
-        pembangunan lembaga pendidikan untuk meningkatkan kualitas pendidikan di
-        Indonesia.
+      value: 'perlu diketahui, Pada tahun 1928 Muhammadiyah memasuki daerah-daerah
+        : Rappang, Pinrang, Palopo, Kajang, Maros, Soppeng Riaja, Takkalasi, Lampoko,
+        Ele (Tanete), Takkalala dan Balangnipa Sinjai.'
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -2789,7 +2974,7 @@ RectTransform:
   - {fileID: 1698806086}
   - {fileID: 736387935}
   m_Father: {fileID: 593447258}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3166,8 +3351,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1790558200}
-        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+      - m_Target: {fileID: 687384022}
+        m_TargetAssemblyTypeName: AreaManager, Assembly-CSharp
         m_MethodName: UnlockArea
         m_Mode: 1
         m_Arguments:
@@ -4632,6 +4817,97 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545059471}
   m_CullTransparentMesh: 1
+--- !u!1001 &570251982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 917653358}
+    m_Modifications:
+    - target: {fileID: 645619527236665295, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_Name
+      value: ObjIlmu (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9592
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3313
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75229007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: text
+      value: pada area ini kamu akan belajar sejarah muhammadiyah di Purwokerto
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cbd14a5be05d884eb884c49843c00a7, type: 3}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 743943272}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogImage
+      value: 
+      objectReference: {fileID: 718911740}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: PanelDialogIlmu
+      value: 
+      objectReference: {fileID: 923484367}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af78a4c81472edf438a594643aab7721, type: 3}
+--- !u!4 &570251983 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+  m_PrefabInstance: {fileID: 570251982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &577698994 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6076848951976364376, guid: 32110bcfbf41a1045859ec1ad1b87e8c, type: 3}
+  m_PrefabInstance: {fileID: 7268123}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &593447254
 GameObject:
   m_ObjectHideFlags: 0
@@ -4725,13 +5001,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 368344539}
-  - {fileID: 1600815423}
   - {fileID: 1704059654}
   - {fileID: 1488614481}
   - {fileID: 768066939}
   - {fileID: 302448799}
   - {fileID: 1119457022}
+  - {fileID: 923484368}
   - {fileID: 435074076}
+  - {fileID: 1600815423}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5271,13 +5548,24 @@ PrefabInstance:
       value: 1516173943
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[0]
       value: Woah.. kamu kuat, terima kasih
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: ketahuilah, Muhammadiyah didirikan di Yogyakarta pada tanggal 18 November
-        1912.
+      value: ketahuilah, HIS Muhammadiyah yang terletak di Kelurahan Poncol (Jl.
+        Wahidin) itu merupakan peninggalan Ranuwiharjo yang wafat pada tahun 1926.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.data[2]
+      value: Setelah HIS pindah, gedung yang semula bambu itu dipakai untuk TK Aisyiah.
+        Oleh ibu-ibu Aisyiah yang dimotori oleh istri Ranuwiharjo (Muti' ah) gedung
+        itu dijadikan tempat pertemuan Aisyiah dengan diberi nama Wisma Ranuwiharjo.
+        Kini gedung itu menjadi Rumah Bersalin Siti Aisyiah
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -5330,6 +5618,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
   m_PrefabInstance: {fileID: 676566463}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &687384020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687384021}
+  - component: {fileID: 687384022}
+  m_Layer: 0
+  m_Name: AreaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687384021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687384020}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.923653, y: -5.983703, z: 0.003562042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 862829814}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &687384022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687384020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86dd3c5bb0467d647b752cfc76a17879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjArea:
+  - {fileID: 1790558197}
+  - {fileID: 706556058}
+  message: {fileID: 986807596}
 --- !u!1001 &689216698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5415,6 +5751,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7320043088448528811, guid: 006c3ad8f58aada4aa6e8d7c33effc88, type: 3}
   m_PrefabInstance: {fileID: 689216698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &706556058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6134826834767147794, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+  m_PrefabInstance: {fileID: 2000714776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &706556059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+  m_PrefabInstance: {fileID: 2000714776}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &715665032
 GameObject:
@@ -5550,6 +5896,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715665032}
+  m_CullTransparentMesh: 1
+--- !u!1 &718911738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718911739}
+  - component: {fileID: 718911741}
+  - component: {fileID: 718911740}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &718911739
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718911738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 923484368}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -215}
+  m_SizeDelta: {x: 394.5864, y: 394.58997}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &718911740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718911738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &718911741
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718911738}
   m_CullTransparentMesh: 1
 --- !u!1 &731959460
 GameObject:
@@ -5800,14 +6222,31 @@ PrefabInstance:
       value: 1516173943
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[0]
       value: Woah.. kamu kuat, terima kasih
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: ketahuilah, Muhammadiyah memiliki peran dalam bidang lingkungan hidup
-        dengan mengadakan kampanye tentang kebersihan lingkungan sebagai upaya untuk
-        meningkatkan kesadaran masyarakat.
+      value: "ketahuilah, Kyai Ma\u2019ruf dan Hasanmihardja untuk bermusyawarah
+        di kediaman K.H. Halimi. Dalam musyawarah tersebut disepakati bahwa K.H.
+        Ahmad Dahlan akan berkunjung ke Purwokerto pada tahun 1921 M.mengundang K.H.
+        Ahmad Dahlan"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.data[2]
+      value: "Kunjungannya tersebut bertujuan untuk menjelaskan tentang asas dan
+        tujuan Muhammadiyah Kunjungan yang kedua tersebut dilakukan di pendopo kepenghuluan.
+        Beberapa tokoh yang hadir dalam perkumpulan tersebut adalah Muh. Ma\u2019ruf,
+        M. Sarwin, Ardjokembar, R. Soemardi, R. Tarekat, R. Soekardi Achmadirdjo,
+        Muhammad Sajidi, M. Abdulraohiem, M. Chalimi, dan M. Koljubi."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.data[3]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -5889,9 +6328,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, Muhammadiyah memiliki peran dalam bidang kesejahteraan
-        sosial dengan membangun panti asuhan dan panti jompo sebagai bentuk kepedulian
-        terhadap kaum yang membutuhkan.
+      value: "Tahukah kamu, Di penghujung tahun 1926, \u201CGerup Muhammadiyah Makassar\u201D
+        disahkan menjadi \u201CCabang Muhammadiyah Makassar\u201D. K.H. Abdullah
+        dan Mansyur Al Yamani, dua tokoh yang selanjutnya memimpin gerakan Muhammadiyah
+        memasyarajkatkan cita-citanya."
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -5944,6 +6384,141 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
   m_PrefabInstance: {fileID: 742592840}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &743943270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743943271}
+  - component: {fileID: 743943273}
+  - component: {fileID: 743943272}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &743943271
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743943270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2113642720}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 616, y: -137}
+  m_SizeDelta: {x: 1170, y: 210}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &743943272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743943270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Text Dialog
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 7bd2aa59e624f944da232f9ead962121, type: 2}
+  m_sharedMaterial: {fileID: 5144311040174183182, guid: 7bd2aa59e624f944da232f9ead962121, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4283387727
+  m_fontColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &743943273
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743943270}
+  m_CullTransparentMesh: 1
 --- !u!1 &752022217
 GameObject:
   m_ObjectHideFlags: 0
@@ -6201,7 +6776,7 @@ Transform:
   - {fileID: 228529015}
   - {fileID: 1609710400}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &768066938
 GameObject:
@@ -6236,7 +6811,7 @@ RectTransform:
   m_Children:
   - {fileID: 802216346}
   m_Father: {fileID: 593447258}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7130,8 +7705,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, Muhammadiyah memberikan bantuan kepada kaum miskin sebagai
-        bentuk kepedulian sosialnya.
+      value: Tahukah kamu, Perintisan Muhammadiyah di kota Garut banyak dilakukan
+        oleh para pendatang dari luar kota Garut. Salah seorangnya adalah H. Djamhari
+        putra Dasiman yang berasal dari kota Kudus.
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -7378,8 +7954,9 @@ Transform:
   - {fileID: 1563304261}
   - {fileID: 1107061212}
   - {fileID: 1336998354}
+  - {fileID: 687384021}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &874211672
 PrefabInstance:
@@ -7639,6 +8216,122 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7320043088448528811, guid: 006c3ad8f58aada4aa6e8d7c33effc88, type: 3}
   m_PrefabInstance: {fileID: 912096430}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &917653357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 917653358}
+  m_Layer: 0
+  m_Name: CoinIlmu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917653358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917653357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 570251983}
+  - {fileID: 1680886752}
+  - {fileID: 1316709740}
+  - {fileID: 118969860}
+  - {fileID: 1694613642}
+  - {fileID: 577698994}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &923484367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 923484368}
+  - component: {fileID: 923484370}
+  - component: {fileID: 923484369}
+  m_Layer: 5
+  m_Name: PanelIlmu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &923484368
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923484367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1349659732}
+  - {fileID: 2113642720}
+  - {fileID: 718911739}
+  m_Father: {fileID: 593447258}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &923484369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923484367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 0.8235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &923484370
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923484367}
+  m_CullTransparentMesh: 1
 --- !u!1001 &925388621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7983,8 +8676,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, Muhammadiyah membangun rumah sakit sebagai upaya untuk
-        memberikan pelayanan kesehatan kepada masyarakat.
+      value: Tahukah kamu, Secara formal SK pendirian Muhammadiyah Surakarta baru
+        disahkan oleh Hoofdbestuur (HB) Muhammadiyah atau PP Muhammadiyah pada tahun
+        1928 dengan tanda tangan Ketua Muhammadiyan Kiai Ibrahim.
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -8469,7 +9163,7 @@ GameObject:
   - component: {fileID: 986807597}
   - component: {fileID: 986807596}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: TextMsg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8621,8 +9315,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, Muhammadiyah mengadakan festival seni dan budaya sebagai
-        upaya untuk melestarikan seni dan budaya Islam.
+      value: Tahukah kamu, Tercatat beberapa nama sebagai perintis pendirian Muhammadiyah
+        di kota Garut adalah H. M. Djamhari, Wangsa Eri, Masjamah, dan H.M. Gazali
+        Tusi yang telah mengusahakan pendiriannya sejak awal tahun 1922
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -9769,6 +10464,7 @@ MonoBehaviour:
   DialogPanel: {fileID: 1119457021}
   BossPanel: {fileID: 1488614480}
   loadingPanel: {fileID: 302448798}
+  PanelIlmu: {fileID: 923484367}
   SliderLoading: {fileID: 736387936}
 --- !u!82 &1107061214
 AudioSource:
@@ -9932,7 +10628,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1119457021
 GameObject:
@@ -9968,7 +10664,7 @@ RectTransform:
   - {fileID: 96195274}
   - {fileID: 860404341}
   m_Father: {fileID: 593447258}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10482,8 +11178,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: ketahuilah, Muhammadiyah membentuk koperasi sebagai upaya untuk mengembangkan
-        ekonomi umat Islam.
+      value: ketahuilah, Selain Kiai Dahlan, terdapat beberapa nama tokoh-tokoh Islam
+        yang juga ikut terlibat dalam berdirinya Muhammadiyah Surakarta. Mereka adalah
+        Haji Misbah, Kiai Muhtar Bukhori, Surono, A.B. Siti Syamsiah
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -10943,13 +11640,29 @@ PrefabInstance:
       value: 1516173943
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[0]
       value: terima kasih banyak, sudah menyelamatkan aku
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, KH Ahmad Dahlan adalah pendiri Muhammadiyah pada tahun
-        1912.
+      value: Tahukah kamu, Berawal dari pidato Kyai Dahlan sekitar tahun 1921 di
+        bioskop Irama itu Muhammadiyah Pekalongan yang kemudian berbias kedaerah-daerah
+        lain se eks karesidenan Pekalongan. Bahkan sekarang Pirnpinan Daerah Muhammadiyah
+        kodya Pekalongan baik anggota maupun jumlah amal usahanya dibanding daerah-daerah
+        lain seperti Kab.Pekalongan, Kab. Pemalang dan Tegal dapat dikatakan tertinggal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.data[2]
+      value: Kini Pimpinan Daerah Muhammadiyah Kodya Pekalongan atau amal usaha di
+        lingkungan Muhammadiyah memiliki sebelas TK Aisyiah, 3 Sekolah Dasar, 2 SLTP
+        dan satu SLTA. 166 tenaga pengajar dan karyawan dengan 3150 anak didik. 2
+        Panti asuhan dengan 80 anak asuh, 7 masjid dan sebuah Koperasi "Koperasi
+        Keluarga Sakinah". Seluruh amal usaha tersebut berada berpencar di 23 tanah
+        wakaf dengan jumlah luas kurang lebih 34.000m2.
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -11622,6 +12335,88 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7320043088448528811, guid: 006c3ad8f58aada4aa6e8d7c33effc88, type: 3}
   m_PrefabInstance: {fileID: 1306233364}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1316709739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 917653358}
+    m_Modifications:
+    - target: {fileID: 645619527236665295, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_Name
+      value: ObjIlmu (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.639
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.571
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75229007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: text
+      value: pada area ini kamu akan belajar sejarah muhammadiyah di Pekalongan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 21300000, guid: 4e62a7c2ee5362d4388607770447e028, type: 3}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 743943272}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogImage
+      value: 
+      objectReference: {fileID: 718911740}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: PanelDialogIlmu
+      value: 
+      objectReference: {fileID: 923484367}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af78a4c81472edf438a594643aab7721, type: 3}
+--- !u!4 &1316709740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+  m_PrefabInstance: {fileID: 1316709739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1323156411
 GameObject:
   m_ObjectHideFlags: 0
@@ -12107,6 +12902,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47dfa29a4f7214429b1fc706083105d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1349659731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349659732}
+  - component: {fileID: 1349659734}
+  - component: {fileID: 1349659733}
+  m_Layer: 5
+  m_Name: player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1349659732
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349659731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 923484368}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.37300003}
+  m_AnchorMax: {x: 0.13700001, y: 0.630435}
+  m_AnchoredPosition: {x: 0, y: 0.5}
+  m_SizeDelta: {x: 0, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1349659733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349659731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 604961843, guid: b07dce4534e2644439f6ed5dc6dfc92a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1349659734
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349659731}
+  m_CullTransparentMesh: 1
 --- !u!1 &1351141558
 GameObject:
   m_ObjectHideFlags: 0
@@ -12818,7 +13689,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1453020000}
-  - component: {fileID: 1453020001}
   m_Layer: 0
   m_Name: UnlockLvl
   m_TagString: Untagged
@@ -12839,21 +13709,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1790558198}
+  - {fileID: 706556059}
+  - {fileID: 2138616919}
+  - {fileID: 1778518712}
+  - {fileID: 15125648}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1453020001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453019999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da8bfd19172854545b08745600c87d33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1473546813
 GameObject:
   m_ObjectHideFlags: 0
@@ -13038,7 +13900,7 @@ RectTransform:
   m_Children:
   - {fileID: 1836127743}
   m_Father: {fileID: 593447258}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -14043,14 +14905,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600815422}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1066729864}
   m_Father: {fileID: 593447258}
-  m_RootOrder: 1
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -14292,12 +15154,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[0]
-      value: Woah.. kamu kuat, terima kasih
+      value: terima kasih
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: ketahuilah, Muhammadiyah mengadakan pelatihan keterampilan bagi perempuan
-        sebagai upaya untuk meningkatkan kemandirian ekonomi perempuan
+      value: ketahuilah, Muhammadiyah di kota Garut secara resmi berdiri pada tanggal 
+        30 Nopember 1923 dengan Surat Ketetapan Pimpinan Pusat Muhammadiyah Yogyakarta
+        nomor 18 sebagai Pimpinan Muhammadiyah Cabang (PMC) Garut
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -14905,6 +15768,170 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7320043088448528811, guid: 006c3ad8f58aada4aa6e8d7c33effc88, type: 3}
   m_PrefabInstance: {fileID: 1678583989}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1680886751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 917653358}
+    m_Modifications:
+    - target: {fileID: 645619527236665295, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_Name
+      value: ObjIlmu (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.759
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.967
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75229007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: text
+      value: pada area ini kamu akan belajar sejarah muhammadiyah di Makassar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 21300000, guid: 35a210a3e2d93be43bd356c69f931e8a, type: 3}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 743943272}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogImage
+      value: 
+      objectReference: {fileID: 718911740}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: PanelDialogIlmu
+      value: 
+      objectReference: {fileID: 923484367}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af78a4c81472edf438a594643aab7721, type: 3}
+--- !u!4 &1680886752 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+  m_PrefabInstance: {fileID: 1680886751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1694613641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 917653358}
+    m_Modifications:
+    - target: {fileID: 645619527236665295, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_Name
+      value: ObjIlmu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.277
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75229007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: text
+      value: pada area ini kamu akan belajar sejarah muhammadiyah di Surakarta
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 21300000, guid: c2541545ca2f543459e683ab9c28fc81, type: 3}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 743943272}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: dialogImage
+      value: 
+      objectReference: {fileID: 718911740}
+    - target: {fileID: 5801040196086961336, guid: af78a4c81472edf438a594643aab7721, type: 3}
+      propertyPath: PanelDialogIlmu
+      value: 
+      objectReference: {fileID: 923484367}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af78a4c81472edf438a594643aab7721, type: 3}
+--- !u!4 &1694613642 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4328864755187669371, guid: af78a4c81472edf438a594643aab7721, type: 3}
+  m_PrefabInstance: {fileID: 1694613641}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1698806085
 GameObject:
   m_ObjectHideFlags: 0
@@ -15072,7 +16099,7 @@ RectTransform:
   m_Children:
   - {fileID: 1833489359}
   m_Father: {fileID: 593447258}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -15502,9 +16529,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: perlu diketahui, Muhammadiyah mengatasi tantangan dan hambatan dalam
-        perjalanan organisasinya dengan memperkuat jaringan dan membangun lembaga
-        pendidikan
+      value: perlu diketahui, ketika Surakarta di awal abad 20, berdiri Sarikat Dagang
+        Islam (SDI) yang menjadi Sarikat Islam (IS), yakni organisasi yang kemudian
+        menjadi partai yang dipimpin Haji Omar Said Tjokroaminoto, dimana juga memiliki
+        andil dalam berdirinya Muhammadiyah di Surakarta.
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -15557,80 +16585,122 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
   m_PrefabInstance: {fileID: 1775437121}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1790558197
-GameObject:
+--- !u!1001 &1778518711
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1790558198}
-  - component: {fileID: 1790558199}
-  - component: {fileID: 1790558200}
-  m_Layer: 0
-  m_Name: lvl1
-  m_TagString: lockarea
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1790558198
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790558197}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1962, y: -0.5522, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1453020000}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1790558199
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790558197}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0026369095, y: 0.0007157326}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.23932838, y: 0.12864971}
-  m_EdgeRadius: 0
---- !u!114 &1790558200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_Modification:
+    m_TransformParent: {fileID: 1453020000}
+    m_Modifications:
+    - target: {fileID: 6134826834767147792, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Size.x
+      value: 0.15593147
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147792, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Size.y
+      value: 0.19118881
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147792, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147792, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.9914
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4077
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147794, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Name
+      value: lvl4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: id
+      value: lvl4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: message
+      value: 
+      objectReference: {fileID: 986807596}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: requiredCoin
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: PanelUnlockArea
+      value: 
+      objectReference: {fileID: 435074075}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[0]
+      value: Apakah kamu ingin membuka area 2 ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[1]
+      value: poin kamu belum cukup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+--- !u!4 &1778518712 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+  m_PrefabInstance: {fileID: 1778518711}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790558197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14852104f2a464e43a04f82834074c74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: lvl1
-  requiredCoin: 1
-  PanelUnlockArea: {fileID: 435074075}
+--- !u!1 &1790558197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6134826834767147794, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+  m_PrefabInstance: {fileID: 6134826835465063655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1790558198 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+  m_PrefabInstance: {fileID: 6134826835465063655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1801772445
 GameObject:
   m_ObjectHideFlags: 0
@@ -16370,8 +17440,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, Muhammadiyah memiliki peran penting dalam bidang pendidikan
-        tinggi dengan membangun universitas dan perguruan tinggi di Indonesia.
+      value: Tahukah kamu, Muhammadiyah didirikan  saat pertemuan pada malam Ahad
+        tanggal 15 Ramadhan 1346 H / 30 Maret 1926 M.
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -17092,6 +18162,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7320043088448528811, guid: 006c3ad8f58aada4aa6e8d7c33effc88, type: 3}
   m_PrefabInstance: {fileID: 1998742212}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2000714776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1453020000}
+    m_Modifications:
+    - target: {fileID: 6134826834767147792, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Size.x
+      value: 0.15593147
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147792, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Size.y
+      value: 0.19118881
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147792, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147792, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1915
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4077
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147794, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Name
+      value: lvl2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: id
+      value: lvl2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: message
+      value: 
+      objectReference: {fileID: 986807596}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: requiredCoin
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: PanelUnlockArea
+      value: 
+      objectReference: {fileID: 435074075}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[0]
+      value: Apakah kamu ingin membuka area 2 ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[1]
+      value: poin kamu belum cukup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f5418a0da69a96438804103f42358db, type: 3}
 --- !u!1 &2014699658
 GameObject:
   m_ObjectHideFlags: 0
@@ -17336,8 +18507,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: ketahuilah, Muhammadiyah fokus pada pendidikan agama Islam sebagai upaya
-        untuk memperkuat pemahaman umat Islam terhadap ajaran agama.
+      value: ketahuilah, pada tahun 1923 Pengurus Besar Muhammadiyah mernberi lampu
+        hijau untuk berdirinya Muhamrnadiyah di Pekalongan dan baru pada tanggal
+        1 Juli 1928 mendapat surat pengesahan dengan nomor 12/P.K dengan ketuanya
+        Sutan Mansyur
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -17672,13 +18845,24 @@ PrefabInstance:
       value: 1516173943
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[0]
       value: hei.. terima kasih banyak...
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: perlu diketahui, Salah satu tujuan utama pendirian Muhammadiyah adalah
-        untuk mengajarkan ajaran Islam yang murni kepada umat Islam.
+      value: perlu diketahui, Muncul pemimpin baru pada tahun limapuluhan seperti
+        R. . Mohammad Toyeb, A. Salim, Dahlan Cholil, Adnan Martawirdja, A. Muhajir
+        Bakri, dll.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
+      propertyPath: dialog.sentences.Array.data[2]
+      value: Beliau-beliau itulah generasi kedua dalam kepemimpinan Cabang Muhammadiyah
+        hingga tahun 1965, yang kemudian melahirkan angkatan berikutnya; Mufidi Abbas,
+        Sutji Mardiko, Zein Daud, Muhammad Buchori, M. Thojib, Edi Sukaryo dan lain-lain.
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -17893,6 +19077,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7320043088448528811, guid: 006c3ad8f58aada4aa6e8d7c33effc88, type: 3}
   m_PrefabInstance: {fileID: 2109255870}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2113642719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2113642720}
+  - component: {fileID: 2113642722}
+  - component: {fileID: 2113642721}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2113642720
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113642719}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 743943271}
+  m_Father: {fileID: 923484368}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.43043455}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -30}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &2113642721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113642719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1906631397, guid: cea9afc2a4c5264418727fa674785182, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 0.1
+--- !u!222 &2113642722
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113642719}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2124803205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17922,8 +19183,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5419018073810136422, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: dialog.sentences.Array.data[1]
-      value: Tahukah kamu, Muhammadiyah menggunakan media sosial sebagai sarana dakwah
-        dalam menghadapi era modern ini.
+      value: Tahukah kamu, Muhammadiyah masuk di Sulawesi Selatan adalah atas inisiatif 
+        Mansyur Al Yamani. Ia mengundang beberapa orang berkumpul di rumah H. Yusuf
+        Dg. Mattiro di Batong (sekarang pangkalan Soekarno). Pertemuan pertama ini
+        dihadiri oleh 15 orang
       objectReference: {fileID: 0}
     - target: {fileID: 8209727944442680414, guid: ac146e87d9fa8cc4c918048d6301a884, type: 3}
       propertyPath: m_RootOrder
@@ -18052,6 +19315,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133327183}
   m_CullTransparentMesh: 1
+--- !u!1001 &2138616918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1453020000}
+    m_Modifications:
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.19619942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3673
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147794, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Name
+      value: lvl3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: id
+      value: lvl3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: message
+      value: 
+      objectReference: {fileID: 986807596}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: requiredCoin
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: PanelUnlockArea
+      value: 
+      objectReference: {fileID: 435074075}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[0]
+      value: Apakah kamu ingin membuka area 1 ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[1]
+      value: poin kamu belum cukup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+--- !u!4 &2138616919 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+  m_PrefabInstance: {fileID: 2138616918}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3224825060754695804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18065,15 +19418,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6109018054506434087, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
       propertyPath: fileName
-      value: save1.txt
+      value: save4.txt
       objectReference: {fileID: 0}
     - target: {fileID: 6109018054506434087, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
       propertyPath: initializeDataIfNull
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7799833082636483494, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7799833082636483494, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18117,6 +19470,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c4269df466fd2f488cb5a71fd56c981, type: 3}
+--- !u!1001 &6134826835465063655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1453020000}
+    m_Modifications:
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.19619942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.55219984
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147793, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147794, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: m_Name
+      value: lvl1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: message
+      value: 
+      objectReference: {fileID: 986807596}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: PanelUnlockArea
+      value: 
+      objectReference: {fileID: 435074075}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[0]
+      value: Apakah kamu ingin membuka area 1 ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134826834767147807, guid: 1f5418a0da69a96438804103f42358db, type: 3}
+      propertyPath: Message.Array.data[1]
+      value: poin kamu belum cukup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f5418a0da69a96438804103f42358db, type: 3}
 --- !u!1001 &6736687142805644210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18178,7 +19608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6736687143685241854, guid: e96cf1b92e0d26645b855558dfe1d791, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6736687143685241854, guid: e96cf1b92e0d26645b855558dfe1d791, type: 3}
       propertyPath: m_LocalPosition.x

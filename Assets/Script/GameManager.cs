@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject DialogPanel;
     public GameObject BossPanel;
     public GameObject loadingPanel;
+    public GameObject PanelIlmu;
     public Slider SliderLoading;
     private bool isPaused = false;
     private GameData gameData;
@@ -128,24 +129,6 @@ public class GameManager : MonoBehaviour
         data.playerPosition = DataPosition;
     }
 
-    // private void PrintDictionaryEnemyCountNeeded()
-    // {
-    //     foreach (var key in EnemyCountNeeded.Keys)
-    //     {
-    //         // Mencetak key dan value dari setiap elemen dalam dictionary
-    //         Debug.Log(key + ": " + EnemyCountNeeded[key]);
-    //     }
-    // }
-
-    // private void PrintDictionaryEnemyCount()
-    // {
-    //     foreach (var key in EnemyCount.Keys)
-    //     {
-    //         // Mencetak key dan value dari setiap elemen dalam dictionary
-    //         Debug.Log(key + ": " + EnemyCount[key]);
-    //     }
-    // }
-
     public void DestroyDefeatedEnemies()
     {
         // Pastikan enemyCountNeeded dan enemyCount tidak null
@@ -213,6 +196,16 @@ public class GameManager : MonoBehaviour
     {
         DialogPanel.SetActive(false);
         BroadcastMessage("setZero", 0, SendMessageOptions.DontRequireReceiver);
+    }
+
+    public void showPanelIlmu()
+    {
+        PanelIlmu.SetActive(true);
+    }
+
+    public void hidePanelIlmu()
+    {
+        PanelIlmu.SetActive(false);
     }
 
     void PauseGame()

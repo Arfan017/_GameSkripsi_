@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class CoinsCollectedText : MonoBehaviour
+public class CoinsCollectedText : MonoBehaviour, IDataPersistence
 {
     private int coinsCollected = 0;
     private TextMeshProUGUI coinsCollectedText;
@@ -22,10 +22,29 @@ public class CoinsCollectedText : MonoBehaviour
     private void OnCoinCollected()
     {
         coinsCollected++;
+        UpdateCoinsCollectedText();
     }
 
-    void Update()
+    void UpdateCoinsCollectedText()
     {
-        coinsCollectedText.text = coinsCollected + " " ;
+        coinsCollectedText.text = coinsCollected + "";
+    }
+
+    public void LoadData(GameData data)
+    {
+        coinsCollected = 0;
+        foreach (KeyValuePair<string, bool> pair in data.coinsCollected)
+        {
+            if (pair.Value)
+            {
+                coinsCollected++;
+            }
+        }
+        UpdateCoinsCollectedText();
+    }
+
+    public void SaveData(GameData data)
+    {
+        // throw new System.NotImplementedException();
     }
 }

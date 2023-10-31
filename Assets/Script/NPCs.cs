@@ -5,11 +5,6 @@ using UnityEngine;
 public class NPCs : MonoBehaviour
 {
     public Dialog dialog;
-    // public string EnemyTag;
-    public float DialogSpeed;
-    public int enemyCountToDefeat;
-    private bool isCollision;
-    private int defeatedEnemyCount;
     private GameManager gameManager;
     private DialogManager dialogueManager;
 

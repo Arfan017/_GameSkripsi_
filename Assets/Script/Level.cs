@@ -1,8 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Level : MonoBehaviour
+public class Level : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private string id;
 
@@ -13,23 +17,35 @@ public class Level : MonoBehaviour
     }
     [SerializeField] private int requiredCoin;
     [SerializeField] private GameObject PanelUnlockArea;
-    private bool open = false;
+    [SerializeField] private TextMeshProUGUI message;
     private Collider2D col;
     private PlayerController playerController;
+    private AreaManager areaManager;
     int totalCoin;
+    private bool isopen;
+    public bool Isopen
+    {
+        get => isopen;
+        set => isopen = value;
+    }
 
     private void Awake()
     {
         col = this.GetComponent<Collider2D>();
         playerController = FindAnyObjectByType<PlayerController>();
+        areaManager = FindAnyObjectByType<AreaManager>();
+        // areaManager.OnOpenAreaChanged += OnOpenAreaChangedHandler;
     }
 
-    private void Start() {
-        // totalCoin = ;
-    }
-
-    private void Update() {
+    private void Update()
+    {
         totalCoin = playerController.CoinsCollected;
+        // isopen = areaManager.OpenArea;
+
+        if (Isopen)
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -37,6 +53,10 @@ public class Level : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PanelUnlockArea.SetActive(true);
+            message.SetText("Apakah kamu ingin membuka area " + id + " ?");
+            areaManager.AreaName = id;
+            areaManager.RequiredCoin = requiredCoin;
+            // "Apakah kamu ingin membuka area 1 ?"
         }
     }
 
@@ -44,22 +64,32 @@ public class Level : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            message.SetText("");
+            // "Apakah kamu ingin membuka area ini ?"
             PanelUnlockArea.SetActive(false);
         }
     }
 
-    public void UnlockArea()
+    public void LoadData(GameData data)
     {
-        if (requiredCoin == totalCoin)
+        data.openArea.TryGetValue(id, out isopen);
+        if (isopen)
         {
-            Debug.Log("area terbuka");
-            this.gameObject.SetActive(false);
+            gameObject.SetActive(false);
         }
-        else
+        else if (!isopen)
         {
-            Debug.Log("requiredCoin => " + requiredCoin);
-            Debug.Log("playerController.CoinsCollected => " + totalCoin);
-            Debug.Log("coin yang dibutuhkan kurang");
+            gameObject.SetActive(true);
         }
+    }
+
+    public void SaveData(GameData data)
+    {
+
+        if (data.openArea.ContainsKey(id))
+        {
+            data.openArea.Remove(id);
+        }
+        data.openArea.Add(id, Isopen);
     }
 }

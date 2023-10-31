@@ -120,6 +120,15 @@ public class PlayerController : MonoBehaviour, IDataPersistence
         {
             this.transform.position = data.playerPosition;
         }
+
+        coinsCollected = 0;
+        foreach (KeyValuePair<string, bool> pair in data.coinsCollected)
+        {
+            if (pair.Value)
+            {
+                coinsCollected++;
+            }
+        }
     }
 
     public void SaveData(GameData data)
@@ -137,9 +146,21 @@ public class PlayerController : MonoBehaviour, IDataPersistence
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("lockarea"))
+        if (collision.gameObject.tag == "area1")
         {
-            Debug.Log(CoinsCollected);
+            gameObject.BroadcastMessage("UnlockArea", collision.gameObject.tag);
+        }
+        else if (collision.gameObject.tag == "area2")
+        {
+            gameObject.BroadcastMessage("UnlockArea", collision.gameObject.tag);
+        }
+        else if (collision.gameObject.tag == "area3")
+        {
+            gameObject.BroadcastMessage("UnlockArea", collision.gameObject.tag);
+        }
+        else if (collision.gameObject.tag == "area4"){
+            gameObject.BroadcastMessage("UnlockArea", collision.gameObject.tag);
+
         }
     }
 }

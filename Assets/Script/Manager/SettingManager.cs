@@ -10,24 +10,11 @@ public class SettingManager : MonoBehaviour
     // public GameObject PanelCredit;
     public AudioSource audioSource;
     public TMP_Dropdown resolutionDropdown;
-    public float scrollSpeed = 20f; // Kecepatan scroll teks
-    public float endTime = 50f; // Waktu berapa lama Credit Scene ditampilkan sebelum kembali ke scene utama
-    // private RectTransform contentTransform;
     private float musicVolume = 1f;
     Resolution[] resolutions;
 
     private void Start()
     {
-        // contentTransform = PanelCredit.GetComponent<RectTransform>();
-
-        // Menjalankan coroutine untuk menggerakkan teks secara otomatis
-        // if (ParentCredit.activeSelf)
-        // {
-        //     StartCoroutine(ScrollCredits());
-        // }
-
-        // Memulai countdown untuk kembali ke scene utama setelah waktu yang ditentukan
-        // Invoke("DisableCreditScene", endTime);  
 
         // Mendapatkan opsi resolusi yang tersedia
         Resolution[] resolutions = Screen.resolutions;
@@ -67,21 +54,4 @@ public class SettingManager : MonoBehaviour
         // Mengatur resolusi layar
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
-
-//    private IEnumerator ScrollCredits()
-//     {
-//         float targetPosition = contentTransform.rect.height;
-
-//         while (contentTransform.anchoredPosition.y < targetPosition)
-//         {
-//             contentTransform.anchoredPosition += Vector2.up * scrollSpeed * Time.deltaTime;
-//             yield return null;
-//         }
-//         DisableCreditScene();
-//     }
-
-//     private void DisableCreditScene()
-//     {
-//         ParentCredit.SetActive(false);
-//     }
 }

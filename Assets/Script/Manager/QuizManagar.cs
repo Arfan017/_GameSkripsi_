@@ -86,14 +86,12 @@ public class QuizManagar : MonoBehaviour
 
             if (optionIndex == currentQuestion.correctOptionIndex)
             {
-                Debug.Log("Jawaban Benar!");
                 animatorPlayer.SetBool("PlayerAttack", true);
                 // textNilai.text = "Nilai: " + CalculateScore();
             }
 
             else
             {
-                Debug.Log("Jawaban Salah!");
                 animatorBoss.SetBool("BossAttack", true);
             }
             StartCoroutine(NextQuestionWithDelay());

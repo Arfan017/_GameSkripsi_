@@ -58,7 +58,6 @@ public class BossFight : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        Debug.Log("trigger dari boss");
         if (coll.gameObject.tag == "SwordPlayer")
         {
             animatorBoss.SetBool("IsDemage", true);

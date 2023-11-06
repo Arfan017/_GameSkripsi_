@@ -217,12 +217,15 @@ public class GameManager : MonoBehaviour
 
     public void save()
     {
-        dataParsistenceManager.SaveGame();
+        // dataParsistenceManager.SaveGame();
+        DataParsistenceManager.instance.SaveGame();
+
     }
 
     public void load()
     {
-        dataParsistenceManager.LoadGame();
+        // dataParsistenceManager.LoadGame();
+        DataParsistenceManager.instance.LoadGame();
     }
 
     public void ResumeGame()
@@ -241,6 +244,7 @@ public class GameManager : MonoBehaviour
     public void ExitGameIsYes(int sceneIndex)
     {
         ExitPanel.SetActive(false);
+        ResumeGame();
         StartCoroutine(LoadAsynchronously(sceneIndex));
     }
 

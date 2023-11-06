@@ -19,7 +19,6 @@ public class MainMenu : MonoBehaviour
             continueGameButton.interactable = false;
         }
     }
-
     public void OnNewGameClicked()
     {
         DisableMenuButtons();
@@ -27,9 +26,8 @@ public class MainMenu : MonoBehaviour
         DataParsistenceManager.instance.NewGame();
         // load the gameplay scene - which will in turn save the game because of
         // OnSceneUnloaded() in the DataPersistenceManager
-        // SceneManager.LoadSceneAsync("GamePlay");
-        // SceneManager.LoadSceneAsync("Intro");
-        StartCoroutine(LoadAsynchronously(3));    }
+        StartCoroutine(LoadAsynchronously(3));
+    }
 
     public void OnContinueGameClicked()
     {
@@ -47,9 +45,7 @@ public class MainMenu : MonoBehaviour
 
     public void button_exit()
     {
-
         Application.Quit();
-
     }
 
     IEnumerator LoadAsynchronously(int sceneIndex)

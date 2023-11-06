@@ -29,7 +29,8 @@ public class Coin : MonoBehaviour, IDataPersistence
         {
             gameObject.SetActive(false);
         }
-        else if(!collected){
+        else if (!collected)
+        {
             gameObject.SetActive(true);
         }
     }
@@ -43,12 +44,15 @@ public class Coin : MonoBehaviour, IDataPersistence
         data.coinsCollected.Add(id, collected);
     }
 
-    private void OnTriggerEnter2D()
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (!collected)
+        if (collider.CompareTag("Player"))
         {
-            collectParticle.Play();
-            CollectCoin();
+            if (!collected)
+            {
+                collectParticle.Play();
+                CollectCoin();
+            }
         }
     }
 
